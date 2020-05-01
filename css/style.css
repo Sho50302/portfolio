@@ -1,0 +1,254 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #c3c3c3;
+  overflow: hidden;
+}
+
+#header {
+  height: 625px;
+  padding: 30px;
+  background-image: url("../img/macbook1697_TP_V.jpg");
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+#scroll_top {
+  height: 100px;
+  width: 100px; 
+  border: 3px solid #fff;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+  cursor: pointer;
+}
+
+.top_btn {
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.header_title {
+  height: 400px;
+  display: flex;
+  align-items: center; 
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.title_name {
+  height: 100px;
+  font-size: 90px;
+  opacity: 0.9;
+}
+
+.nav_lists {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.nav_lists li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav_list {
+  text-align: center;
+}
+
+.nav_lists p {
+  margin-top: 5px;
+}
+
+.nav_lists a {
+  color: #fff;
+}
+
+.nav_lists a:hover {
+  color: #333;
+}
+
+.nav_description {
+  text-align: center;
+}
+
+#body {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#head_body {
+  height: 400px;
+  padding: 30px;
+}
+
+.head_title {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+
+.item i {
+  margin-right: 10px;
+}
+
+.head_content {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #c3c3c3;
+}
+
+.head_content p {
+  letter-spacing: 1px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.indent {
+  text-indent: 1em;
+}
+
+#main_body {
+  padding: 30px;
+}
+
+.main_title {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+
+.body_content {
+  background-color: #fff;
+  padding: 0 50px;
+  margin-bottom: 70px;
+}
+
+.body_content h1 {
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.learn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px
+}
+
+.learn_content h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.learn_content li{
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: normal;
+  text-align: center;
+}
+
+#foot_body {
+  padding: 0 30px;
+}
+
+.foot_title {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+
+.foot_contents {
+  height: 400px;
+}
+
+.foot_contents ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content_list {
+  background-color: #fff;
+  width: 100%;
+  height: 350px;
+  margin: 0 20px;
+}
+
+.foot_image {
+  width: 100%;
+  height: 150px;
+}
+
+.list_detail {
+  padding: 0 10px;
+}
+
+.list_detail h3 {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.word {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.word p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+#footer {
+  margin-top: 50px;
+  background-color: #333;
+}
+
+#footer_container {
+  height: 150px;
+  padding: 30px 200px 0 200px;
+}
+
+.footer_link ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.footer_link a {
+  color: #fff;
+}
+
+.footer_link i {
+  margin-right: 10px;
+}
+
+.footer_content {
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+}
